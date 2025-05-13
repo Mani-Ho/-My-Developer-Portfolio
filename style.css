@@ -411,3 +411,15 @@ h1 {
         width: 20px;
     }
 }
+
+@media screen and (max-width: 380px) {
+    .text-animation {
+        font-size: 15px!important;
+    }
+@media screen and (max-width: 370px) {
+    .text-animation {
+        font-size: 13px!important;
+    }
+    
+    
+}

@@ -20,3 +20,31 @@ if(window.matchMedia('(max-width: 1300px)')) {
     })
 
 }
+
+// Animation écriture
+
+const txtAnim = document.querySelector(".text-animation");
+
+let typewriter = new Typewriter(txtAnim, {
+    loop: false,
+    deleteSpeed: 20
+})
+
+typewriter
+.pauseFor(1800)
+.changeDelay(20)
+.typeString("Moi c\'est Sébastien Gobbi")
+.pauseFor(300)
+.typeString("<strong>, Développeur et Concepteur d'application.</strong>")
+.pauseFor(1000)
+.deleteChars(28)
+.typeString('<span style="color: #27ae60;"> HTML</span> ! ')
+.pauseFor(1000)
+.deleteChars(7)
+.typeString('<span style="color: #EA39ff;"> CSS</span> !')
+.pauseFor(1000)
+.deleteChars(7)
+.typeString('<span style="color: midnightblue;"> React</span> !')
+.pauseFor(1000)
+
+.start()
