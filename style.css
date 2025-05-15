@@ -422,3 +422,22 @@ h1 {
         font-size: 13px !important;
     }
 }
+
+
+/*---------------------Section Présentation--------------------*/
+
+.presentation {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border-top: 1px dashed #333;
+    border-bottom: 1px dashed #333;
+    color: #333;
+}
+
+.titre-pres {
+    font-size: 40px;
+    text-align: center;
+    margin: 50px 0 70px 0;
+    padding-left: 300px;
+}
