@@ -432,7 +432,16 @@ h1 {
     overflow: hidden;
     border-top: 1px dashed #333;
     border-bottom: 1px dashed #333;
-    color: #333;
+    color: #e7e7e7;
+}
+.font-forme {
+    background: #485563;
+    background-image: linear-gradient(to right, #29323c, #485563);
+    width: 2300px;
+    height: 1100px;
+    position: absolute;
+    transform: rotate(-45deg) translateX(100px) translateY(-15px);
+    z-index: -1;
 }
 
 .titre-pres {
@@ -440,4 +449,51 @@ h1 {
     text-align: center;
     margin: 50px 0 70px 0;
     padding-left: 300px;
+}
+.container-presentation {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 150px 0;
+    flex-shrink: 0;
+    padding-left: 300px;
+}
+.pres-gauche {
+    width: 600px;
+    flex-shrink: 0;
+    margin-bottom: 50px;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+.pres-gauche h3 {
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.pres-gauche hr {
+    width: 60px;
+    margin: 0 auto 20px auto;
+    
+}
+.pres-gauche p {
+    text-align: justify;
+}
+.pres-droite {
+    width: 600px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+.liste-presentation {
+    list-style-type: none;
+    padding: 10px 0 50px 110px;
+}
+.chiffre-style {
+    font-family: "Abril Fatface", sans-serif;
+    font-size: 40px;
+}
+.txt-list {
+    font-size: 27px;
+    display: inline;
 }
