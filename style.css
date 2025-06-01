@@ -595,6 +595,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    
 }
 .item {
     margin: 20px;
@@ -602,9 +603,44 @@ h1 {
     height: 400px;
     background: #f0f2f0;
     color: #333;
-    transition: transform 0.3 ease-out;
+    transition: transform 0.3s ease-out;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .item:hover {
     transform: translate(-5px) ;
+}
+.cont-img-port {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+}
+.cont-img-port img {
+    width: 100%;
+    height: auto;
+}
+.item h3 {
+    padding: 10px 10px 0;
+    font-size: 22px;
+}
+.item p {
+    padding: 10px 10px 0;
+}
+.btn-projet {
+    display: block;
+    margin: O auto;
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    text-align:center;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #333;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    margin-top: auto;
 }
