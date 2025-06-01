@@ -573,3 +573,38 @@ h1 {
 
 
 }
+
+/*-----------------------Section portfolio-------------------*/
+
+.portfolio {
+    width: 100%;
+}
+
+.titre-port {
+    text-align: center;
+    padding: 50px 0;
+    font-size: 50px;
+    padding-left: 300px;
+}
+.cont-portfolio {
+    width: 100%;
+    height: auto;
+    margin: 0 auto 100px auto;
+    padding-left: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.item {
+    margin: 20px;
+    width: 420px;
+    height: 400px;
+    background: #f0f2f0;
+    color: #333;
+    transition: transform 0.3 ease-out;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.item:hover {
+    transform: translate(-5px) ;
+}
