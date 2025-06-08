@@ -197,7 +197,7 @@ body {
 /*-----------------Accueil---------------------------*/
 
 .accueil {
-    background: url(ressources/fond-accueil.webp);
+    background: url(ressources/accueil.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
