@@ -587,28 +587,24 @@ h1 {
     padding-left: 300px;
 }
 .cont-portfolio {
-    width: 100%;
-    height: auto;
-    margin: 0 auto 100px auto;
-    padding-left: 300px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    
+    gap: 32px;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto 100px auto;
+    padding-left: 300px;
 }
 .item {
-    margin: 20px;
-    width: 420px;
+    flex: 1 1 calc(33.333% - 64px); /* 3 colonnes, moins les gaps */
+    max-width: 420px;
+    min-width: 280px;
+    margin: 0;
+    margin-bottom: 32px;
     height: 400px;
-    background: #f0f2f0;
-    color: #333;
-    transition: transform 0.3s ease-out;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
+
 .item:hover {
     transform: translate(-5px) ;
 }
