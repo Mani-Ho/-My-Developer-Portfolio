@@ -229,6 +229,7 @@ h1 {
     margin: 10px 0 0 0;
     border-radius: 2px;
     font-size: 18px;
+    border-radius: 30px;
     
 }
 .btn-acc1 {
@@ -439,7 +440,7 @@ h1 {
     background: #485563;
     background-image: linear-gradient(to right, #29323c, #485563);
     width: 2300px;
-    height: 1100px;
+    height: 1000px;
     position: absolute;
     transform: rotate(-45deg) translateX(100px) translateY(-15px);
     z-index: -1;
@@ -616,6 +617,7 @@ h1 {
 .cont-img-port img {
     width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 .item h3 {
     padding: 10px 10px 0;
@@ -639,9 +641,11 @@ h1 {
     position: relative;
     overflow: hidden;
     margin-top: auto;
+    border-radius: 30px;
 }
 
 /*Media Porfolio*/
+
 
 
 @media screen and (max-width: 1300px) {
