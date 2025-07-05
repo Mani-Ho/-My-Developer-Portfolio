@@ -197,7 +197,7 @@ body {
 /*-----------------Accueil---------------------------*/
 
 .accueil {
-    background: url(ressources/accueil.jpg);
+    background: url(ressources/imgPres.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -210,8 +210,8 @@ body {
 h1 {
     font-size: 90px;
     font-family: "Abril Fatface", sans-serif;
-    margin: 0 60px;
-    padding-top: 210px;
+    margin: 0 40px;
+    padding-top: 310px;
 }
 .text-animation {
     font-size: 30px;
@@ -226,10 +226,11 @@ h1 {
     justify-content: center;
     align-items: center;
     color: #f1f1f1;
-    margin: 10px 0 0 0;
+    margin: 50px 0 0 10px;
     border-radius: 2px;
     font-size: 18px;
     border-radius: 30px;
+    
     
 }
 .btn-acc1 {
@@ -244,7 +245,7 @@ h1 {
 .medias {
     display: flex;
     margin-left: 60px;
-    margin-top: 30px;
+    margin-top: 100px;
 }
 .media {
     width: 60px;
@@ -817,3 +818,96 @@ h1 {
         }
     }
 
+/*-----------------Section experience----------------*/
+
+.travail-exp {
+    width: calc(100% - 300px);
+    height: auto;
+    margin-left: auto;
+    padding-bottom: 100px;
+}
+
+.titre-travail-exp {
+    text-align: center;
+    margin: 70px 0;
+    font-size: 40px;
+    color: #333;
+}
+
+.cont-exp-travail {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.barre-verticale {
+    height: 1000px;
+    width: 5px;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: -30px;
+}
+.boule-ico {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #333;
+    background: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boule-ico img {
+    width: 25px;
+}
+
+.flex-cont-bloc-exp {
+    width: 800px;
+    flex-shrink: 1;
+    height: 1000px;
+    position: relative;
+}
+.bloc {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 37.5px;
+    cursor: pointer;
+    border: 1px solid #333;
+    position: relative;
+}
+.contenu-bloc {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #000;
+    background: white;
+    transition: transform 0.25s ease-in-out;
+    position: relative;
+    transform: translate(10px, -10px);
+    box-sizing: border-box;
+}
+.contenu-bloc:hover {
+    transform: translate(0,0);
+}
+
+.bloc1 {
+    background: #fb97a0;
+}
+.bloc2 {
+    background: #bfe2ca;
+}
+.bloc3 {
+    background: #a6daef;
+}
+.bloc4 {
+   background: #d0e2ec;
+}
+
+.titre-section-bloc {
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
