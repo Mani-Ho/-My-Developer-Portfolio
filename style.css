@@ -1108,7 +1108,40 @@ textarea:focus {
 
 }
 
+@media screen and (max-width: 1300px) {
+    .section-contact h2 {
+        padding: 70px 0 0 0;
+    }
+    .container-form{
+        padding-left: 0;
+    }
+    .form-groupe:nth-child(4){
+        justify-content: center;
+    }
+    
+}
+
 /*Animation Contact*/
 
+.form-groupe:focus-within label,
+.form-groupe.animation label {
+    top: 0px;
+    transform: translateY(-100%);
+    color: #8b97d7;
+}
 
+/*footer*/
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+@media screen and (max-width: 1300px) {
+    footer {
+        padding-left: 0px;
+    }
+    
+}
     
