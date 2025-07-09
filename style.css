@@ -20,7 +20,7 @@ body {
     background: #333;
     position: fixed;
     top: 0;
-    left: 0;
+    left: -300px;
     border-right: 1px dashed #f1f1f1;
     z-index: 5;
     transition: all 0.2s ease-in-out;
