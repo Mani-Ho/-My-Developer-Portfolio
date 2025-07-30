@@ -442,9 +442,11 @@ h1 {
 .pres-gauche hr {
   width: 60px;
   margin: 0 auto 20px auto;
+  
 }
 .pres-gauche p {
   text-align: justify;
+  font-size: 20px;
 }
 .pres-droite {
   width: 600px;
@@ -573,11 +575,13 @@ h1 {
 }
 .item p {
   padding: 10px 10px 0;
+  font-size: 17px;
+  
 }
 .btn-projet {
   display: block;
   margin: 0;
-  width: 180px;
+  width: 160px;
   height: 50px;
   line-height: 50px;
   text-align: center;
@@ -589,6 +593,9 @@ h1 {
   position: relative;
   overflow: hidden;
   margin-top: auto;
+  font-size: 20px;
+  margin-top: 20px;
+  
 }
 
 @media screen and (max-width: 1300px) {
@@ -800,6 +807,9 @@ h1 {
   transform: translate(10px, -10px);
   box-sizing: border-box;
   border-radius: 20px;
+}
+.txt-section {
+  font-size: 20px;
 }
 .contenu-bloc:hover {
   transform: translate(0,0);
